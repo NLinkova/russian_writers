@@ -1,0 +1,318 @@
+<!DOCTYPE xhtml>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/logo.svg" type="image/gif" sizes="20x20">
+  <title>Russian Literature</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header id="header" class="container-fluid p-2">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top mb-5" style="background-color: #6ea7d3;">
+      <div class="container-fluid">
+        <img src="./images/pen_logo.svg" alt="pen" id="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link menu-font" accesskey="R" href="#" onclick="showPage('page1')">Russian Writers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-font" accesskey="T" href="#" onclick="showPage('page2')">Tolstoy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-font" accesskey="D" href="#" onclick="showPage('page3')">Dostoevsky</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-font" accesskey="B" href="#" onclick="showPage('page4')">Bulgakov</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+</body>
+<section class="title">
+  <!-- SVG icon with three basic shapes -->
+  <h1><svg viewBox="0 0 28 28" width="68" height="68">
+        <polyline points="3 8, 3 4, 21 4, 21 8" />
+        <line x1="12" y1="4" x2="12" y2="20" />
+        <circle cx="12" cy="12" r="12" />
+     </svg> The Greatest Works of Russian Literature</h1>  
+  <p class="placeholder-wave">
+    <span class="placeholder col-12"></span>
+  </p>
+</section>
+
+<section class="pages" id="page1">
+  <h2 class="subtitle">Russian Writers</h2>
+  <!-- SVG separator -->
+  <svg height="20" width="1900">
+    <line x1="0" x2="1900" y1="0" y2="0" stroke-width="1" stroke="black" />
+  </svg>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/tolstoy.jpg" class="card-img-top ms-1 mt-1" alt="portret of Tolsloy">
+        <div class="card-body">
+          <h5 class="card-title">Leo Tolstoy</h5>
+          <p class="card-text">Russian writer who is regarded as one of the greatest authors of all time. He received nominations for
+             the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909.
+             Born to an aristocratic Russian family in 1828, Tolstoy is best known for the novels War and Peace (1869)
+             and Anna Karenina (1878), often cited as pinnacles of realist fiction</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/dostoevsky.jpg" class="card-img-top ms-1 mt-1" alt="portret of Dostoevsky">
+        <div class="card-body">
+          <h5 class="card-title">Fyodor Dostoevsky</h5>
+          <p class="card-text">Russian novelist, short story writer, essayist, and journalist. Dostoevsky's literary works explore
+             human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia, and engage with
+              a variety of philosophical and religious themes. His most acclaimed novels include Crime and Punishment (1866), The Idiot
+             (1869), Demons (1872), and The Brothers Karamazov (1880).</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/bulgakov.jpeg" class="card-img-top ms-1 mt-1" alt="portret of Bulgakov">
+        <div class="card-body">
+          <h5 class="card-title">Mikhail Bulgakov</h5>
+          <p class="card-text">Russian writer, medical doctor and playwright active in the first half of the 20th century. He is best
+             known for his novel The Master and Margarita, published posthumously, which has been called one of the masterpieces of the
+             20th century.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="pages" id="page2">
+  <h2 class="subtitle">Leo Tolstoy</h2>
+  <h2 class="subtitle">Popular Books</h2>
+  <!-- SVG separator -->
+  <svg height="20" width="1900">
+    <line x1="0" x2="1900" y1="0" y2="0" stroke-width="1" stroke="black" />
+  </svg>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/karenina.jpg" class="card-img-top ms-1 mt-1" alt="cover image Karenina">
+        <div class="card-body">
+          <h5 class="card-title">Anna Karenina</h5>
+          <p class="card-text">Novel by the Russian author Leo Tolstoy, first published in book form in 1878. Many writers consider
+             it to be one of the greatest works of literature ever written, and Tolstoy himself called it his first true novel.
+            It was initially released in serial installments from 1875 to 1877, all but the last part appearing in the periodical
+            The Russian Messenger.</p>
+          <p class="card-text">A complex novel in eight parts, with more than a dozen major characters, Anna Karenina is spread
+            over more than 800 pages (depending on the translation and publisher), typically contained in two volumes. It deals
+            with themes of betrayal, faith, family, marriage, Imperial Russian society, desire, and rural vs. city life. The story
+            centers on an extramarital affair between Anna and dashing cavalry officer Count Alexei Kirillovich Vronsky that scandalizes
+             the social circles of Saint Petersburg and forces the young lovers to flee to Italy in a search for happiness, but after
+             they return to Russia, their lives further unravel.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/war-and-peace.jpg" class="card-img-top ms-1 mt-1" alt="cover image war and peace">
+        <div class="card-body">
+          <h5 class="card-title">War and Peace</h5>
+          <p class="card-text">War and Peace is a literary work mixed with chapters on history and philosophy by the Russian author 
+            Leo Tolstoy, first published serially, then published in its entirety in 1869. It is regarded as one of Tolstoy's finest
+             literary achievements and remains an internationally praised classic of world literature.</p>
+          <p class="card-text">The novel chronicles the French invasion of Russia and the impact of the Napoleonic era on Tsarist
+             society through the stories of five Russian aristocratic families. Portions of an earlier version, titled The Year 1805,
+              were serialized in The Russian Messenger from 1865 to 1867 before the novel was published in its entirety in 1869.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/family_hapiness.jpg" class="card-img-top ms-1 mt-1" alt="cover image family happiness">
+        <div class="card-body">
+          <h5 class="card-title">Family Happiness</h5>
+          <p class="card-text">Family Happiness is an 1859 novella written by Leo Tolstoy, first published in The Russian Messenger.</p>
+          <p class="card-text">The story follows unconventional love and marriage of a young girl, Masha aged 17, and the much older
+             Sergey Mikhaylych , an old family friend. The story is narrated by Masha. After a courtship that has the trappings of
+              a mere family friendship, Masha's love grows and expands until she can no longer contain it. She reveals it to Sergey
+             Mikhaylych and discovers that he also is deeply in love.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="pages" id="page3">
+  <h2 class="subtitle">Fyodor Dostoevsky</h2>
+  <h2 class="subtitle">Popular Books</h2>
+  <!-- SVG separator -->
+  <svg height="20" width="1900">
+    <line x1="0" x2="1900" y1="0" y2="0" stroke-width="1" stroke="black" />
+  </svg>
+  <div class="row row-cols-1 row-cols-md-2 g-4">    
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/idiot.jpg" class="card-img-top ms-1 mt-1" alt="cover image idiot">
+        <div class="card-body">
+          <h5 class="card-title">The Idiot</h5>
+          <p class="card-text">The Idiot is a novel by the 19th-century Russian author Fyodor Dostoevsky. It was first published
+             serially in the journal The Russian Messenger in 1868–69. The title is an ironic reference to the central character
+              of the novel, Prince Lev Nikolayevich Myshkin, a young man whose goodness, open-hearted simplicity and guilelessness
+               lead many of the more worldly characters he encounters to mistakenly assume that he lacks intelligence and insight.
+               In the character of Prince Myshkin, Dostoevsky set himself the task of depicting "the positively good and beautiful
+               man." The novel examines the consequences of placing such a singular individual at the centre of the conflicts, 
+               desires, passions and egoism of worldly society, both for the man himself and for those with whom he becomes involved.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/demons.jpg" class="card-img-top ms-1 mt-1" alt="cover image demons">
+        <div class="card-body">
+          <h5 class="card-title">Demons</h5>
+          <p class="card-text">Demons is a novel by Fyodor Dostoevsky, first published in the journal The Russian Messenger in 1871–72.
+             It is considered one of the four masterworks written by Dostoevsky after his return from Siberian exile,
+             along with Crime and Punishment (1866), The Idiot (1869) and The Brothers Karamazov (1880). Demons is a social
+             and political satire, a psychological drama, and large-scale tragedy. Joyce Carol Oates has described it as "Dostoevsky's
+             most confused and violent novel, and his most satisfactorily 'tragic' work." According to Ronald Hingley, it is 
+             Dostoevsky's "greatest onslaught on Nihilism", and "one of humanity's most impressive achievements—perhaps even its
+              supreme achievement—in the art of prose fiction." Demons is an allegory of the potentially catastrophic consequences
+               of the political and moral nihilism that were becoming prevalent in Russia in the 1860s.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/crime.jpg" class="card-img-top ms-1 mt-1" alt="cover image crime and Punishment">
+        <div class="card-body">
+          <h5 class="card-title">Crime and Punishment</h5>
+          <p class="card-text">Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published
+             in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in
+              a single volume. It is the second of Dostoevsky's full-length novels following his return from ten years of exile
+               in Siberia. Crime and Punishment is considered the first great novel of his "mature" period of writing. The novel is
+               often cited as one of the supreme achievements in literature.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pages" id="page4">
+  <h2 class="subtitle">Mikhail Bulgakov</h2>
+  <h2 class="subtitle">Popular Books</h2>  
+  <!-- SVG separator -->
+  <svg height="20" width="1900">
+    <line x1="0" x2="1900" y1="0" y2="0" stroke-width="1" stroke="black" />
+  </svg>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/master.jpg" class="card-img-top ms-1 mt-1" alt="cover image master and margarite">
+        <div class="card-body">
+          <h5 class="card-title">The Master and Margarita</h5>
+          <p class="card-text">The Master and Margarita is a novel by Russian writer Mikhail Bulgakov, written in the Soviet Union
+             between 1928 and 1940 during Stalin's regime. A censored version was published in Moscow magazine in 1966–1967, after
+              the writer's death. The manuscript was not published as a book until 1967, in Paris. A samizdat version circulated
+              that included parts cut out by official censors, and these were incorporated in a 1969 version published in Frankfurt.
+              The novel has since been published in several languages and editions. The story concerns a visit by the devil to the
+             officially atheistic Soviet Union. The Master and Margarita combines supernatural elements with satirical dark
+             comedy and Christian philosophy, defying categorization within a single genre. Many critics consider it to be
+             one of the best novels of the 20th century, as well as the foremost of Soviet satires</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card m-3">
+        <img src="./images/guard.jpg" class="card-img-top ms-1 mt-1" alt="cover image the white guard">
+        <div class="card-body">
+          <h5 class="card-title">The White Guard</h5>
+          <p class="card-text">The White Guard is a novel by Mikhail Bulgakov, first published in 1925 in literary journal Rossiya.
+           It was not reprinted in the Soviet Union until 1966. The White Guard first appeared in serial form in the Soviet-era
+            literary journal Rossiya in 1925, but the magazine was closed down before the serial was completed. The complete
+             book was published in Paris in 1927. The censored version was published in the Soviet Union in 1966. The complete
+             version was published only in 1989. After the first two parts of The White Guard were published in Rossiya,
+             Bulgakov was invited to write a version for the stage. He called the play The Days of the Turbins. This was
+             produced at the Moscow Art Theatre, to great acclaim. According to some sources, Stalin saw it no fewer than
+             20 times. In fact, the play completely overshadowed the book, which was in any event virtually unobtainable in any form.</p>
+        </div>
+      </div>
+    </div>    
+  </div>
+</section>
+
+<section id="page5">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active menu-font" aria-current="page" href="#" onclick="showPage('page1')">Russian Writers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="#" onclick="showPage('page2')">Tolstoy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="#" onclick="showPage('page3')">Dostoevsky</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="#" onclick="showPage('page4')">Bulgakov</a>
+    </li>
+  </ul>
+  <p class="p-0 mb-0">&copy;2021. Natalia Linkova</p>
+</footer>
+
+</html>

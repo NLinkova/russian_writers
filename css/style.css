@@ -1,0 +1,70 @@
+/* Override framework  defaults */
+
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    text-align: center;
+    transition: opacity 0.2s linear;
+    opacity: 1;
+}
+  
+.title {
+    font-size: large;
+    margin: 50px auto !important;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 32px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#logo {
+    width: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    max-width: 250px !important;    
+}
+
+a {
+    display: block;
+    text-decoration: none;    
+}
+
+.menu-font {
+    font-size: medium;
+}
+
+#footer {
+    margin: 40px auto 0;
+    background-color: #d6e8f7;
+}
+svg {
+    stroke: currentColor;
+    stroke-width: 1;
+    fill: none;
+}
+
+/* Override framework animation  */
+
+a:hover, a:focus {
+    background-color: rgb(255, 255, 255);
+    color: white
+}
+a:active {
+    background-color: white;
+    color:rgb(255, 255, 255);
+}
+
+
