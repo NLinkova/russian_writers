@@ -2,8 +2,8 @@
 
 ### Description
 
-This single page website is a tutorial website for students of the Diploma of Website Development, TAFE, Queensland
-<br>All pages for this project are to be merged into the one HTML file, but including external CSS and JS files.The “App” is to show and hide blocks of content on user click events registered and acted upon by JavaScript code.
+This single page website is a student work, Diploma of Website Development, TAFE, Queensland
+<br>All pages for this project are to be merged into the one HTML file, but including external CSS and JS files. The “App” shows and hides blocks of content on user click events registered and acted upon by JavaScript code.
 
 ### Functionality
 
